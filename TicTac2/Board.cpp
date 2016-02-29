@@ -44,7 +44,7 @@ void Board::clear() {
 }
 
 
-//COPIED, EDITED FROM BEN ---------------------------------
+//BASED ON BEN'S CODE--------
 
 void Board::print() const {
 	// Instead of calling printf multiple times, we build a single
@@ -97,9 +97,10 @@ void Board::print() const {
 	printf("%s\n", text.c_str());
 }
 
+//END OF 'BASED ON BEN' CODE------
+
 int Board::checkVictory() const {
 	int counter = 1;
-	//int comparator;
 
 	//ALL BELOW DONE WITH VECTOR INDEXING OF THE ARRAY
 	//ROWS AND COLUMNS
